@@ -3,17 +3,18 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from database import db
 
 
-START_TEXT = """**Hello {} 😌
-I am a QR Code Bot**
+START_TEXT = """**Hello {} 🙃
+I am a QR Code Bot 🤖**
 
->> `I can generate links to QR Code with QR Code decode to links support.`
+>> `I can generate links to QR Code with QR Code decode to links support. 🚀`
 
-Made by @FayasNoushad"""
+Made by @wisula4 🇱🇰"""
 
 HELP_TEXT = """**Hey, Follow these steps:**
 
-➠ Send me a link I will generate the QR code of that link
-➠ Send me a QR code image I will decode that image and convert to link
+➠ Send me a link I will generate the QR code of that link 🤭
+➠ Send me a QR code image I will decode that image and convert to link 👌
+➠ Made in sri lanka 🇱🇰
 
 **Available Commands**
 
@@ -24,19 +25,19 @@ HELP_TEXT = """**Hey, Follow these steps:**
 /reset - For reset settings
 /status - For bot status
 
-Made by @FayasNoushad"""
+Made by @wisula4"""
 
-ABOUT_TEXT = """--**About Me 😎**--
+ABOUT_TEXT = """--**About Me 🙄**--
 
 🤖 **Name :** [QR Code Bot](https://telegram.me/{})
 
-👨‍💻 **Developer :** [Fayas](https://github.com/FayasNoushad)
+👨‍💻 **Developer :** [wisula](https://t.me/wisula4)
 
-📢 **Channel :** [Fayas Noushad](https://telegram.me/FayasNoushad)
+📢 **Channel :** [Epic bots](https://t.me/EpicBotsSl)
 
-👥 **Group :** [Developer Team](https://telegram.me/TheDeveloperTeam)
+👥 **Group :** [Epic chat](https://t.me/EpicChats)
 
-🌐 **Source :** [👉 Click here](https://github.com/FayasNoushad/QR-Code-bot)
+🌐 **Source :** [Click here](https://t.me/MW_GIVEAWAYS)
 
 📝 **Language :** [Python3](https://python.org)
 
@@ -46,11 +47,11 @@ ABOUT_TEXT = """--**About Me 😎**--
 
 SETTINGS_TEXT = "**Settings**"
 
-FORCE_SUBSCRIBE_TEXT = "<code>Sorry Dear You Must Join My Updates Channel for using me 😌😉....</code>"
+FORCE_SUBSCRIBE_TEXT = "<code>Sorry Dear You Must Join My Updates Channel for using me 🥺....</code>"
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('⚙ Help', callback_data='help'),
+        InlineKeyboardButton('Help 🤔', callback_data='help'),
         InlineKeyboardButton('About 🔰', callback_data='about'),
         InlineKeyboardButton('Close ✖️', callback_data='close')
         ]]
