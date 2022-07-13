@@ -1,0 +1,51 @@
+{
+  "name": "Qr code bot",
+  "description": "Telethon & pyrogram session gen bot",
+  "logo": "https://te.legra.ph/file/97e45c843108aa0798a7d.jpg",
+  "keywords": [
+    "telegram",
+    "bot", 
+    "python",
+    "pyrogram"
+  ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+  "repository": "https://github.com/tgnewwis/QR-Code-Bot",
+  "env": {
+    "ENVIRONMENT": {
+      "description": "Don't change ANYTHING.",
+      "required": true,
+      "value": "ANYTHING"
+    },
+    "API_ID": {
+      "description": "Get this value from my.telegram.org.",
+      "required": true,
+      "value": "19795622"
+    },
+    "MONGO_URI": {
+      "description": "Get this value from mongodb.com",
+      "required": true,
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org.",
+      "required": true,
+      "value": "e7708ebb39f90d961479763d716303ab"
+    }
+  }
+}
